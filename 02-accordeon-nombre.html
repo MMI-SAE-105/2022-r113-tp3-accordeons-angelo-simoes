@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accordéon avec des nombres</title>
+    <title>Accordéon avec des booléens</title>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
-    <h1>Accordéon avec des booléens</h1>
+    <h1>Accordéon avec des nombres</h1>
     <div class="accordeon" x-data="{open: 0}">
       <section>
         <button @click="open = 1">bouton 1</button>
-        <p x-show="open== 1" x-transition.scale.origine.top  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, commodi aliquid harum recusandae eaque saepe dolores sed ex qui. Facilis veritatis explicabo eius veniam a repudiandae earum aperiam, vitae qui.</p>
+        <p x-show="open== 1" x-transition.scale.origine.top>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, commodi aliquid harum recusandae eaque saepe dolores sed ex qui. Facilis veritatis explicabo eius veniam a repudiandae earum aperiam, vitae qui.</p>
       </section>
       <section>
         <button @click="open = 2">bouton 2</button>
